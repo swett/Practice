@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+header {
+    width: 1440px;
+    height: 96px;
+}
+
+.logo img {
+    margin-top: 24px;
+    margin-left: 192px;
+    margin-bottom: 24px;
+}
+.Security{
+    width: 1440px;
+    height: 805px;
+}
+.Security_logo {
+    margin-top: 144px;
+    margin-left: 657px;
+}
+.Text_Security{
+    margin-top: 64px;
+    margin-left: 358px;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    font-family: 'Rubik';
+    width: 725px;
+    height: 152px;
+    white-space: pre-line;
+}
+
+.Button_Security {
+    margin-top: 313px;
+    margin-left: 630px;
+} 
+
+.All_information {
+    width: 1440px;
+    background: url(/iShield_web_assets/bg_main.png);
+}
+.Know_your_thearts img {
+    margin-top: 28px;
+    margin-left: 757px;
+}
+.Text_know_thearts h1{
+    margin-top: -501px;
+    margin-left: 319px;
+    font-size: 36px;
+    display: flex;
+    font-weight: 300;
+    line-height: 120%;
+    
+    font-family: 'Rubik';
+    width: 390px;
+    height: 86px;
+    white-space: pre-line;
+    
+}
+.Text_know_thearts p {
+    font-size: 24px;
+    line-height: 120%;
+    font-family: 'Rubik';
+    width: 390px;
+    height: 29px;
+    margin-left: 319px;
+}
+.Enjoy_a_safe img {
+    margin-top: 382px;
+    margin-left: 221px;
+}
+
+.Text_enjoy_a_safe h1 {
+    margin-top: -500px;
+    margin-left: 730px;
+    font-size: 36px;
+    display: flex;
+    font-weight: 300;
+    line-height: 120%;
+    
+    font-family: 'Rubik';
+    width: 426px;
+    height: 86px;
+    white-space: pre-line;
+}
+.Text_enjoy_a_safe p {
+    margin-left: 730px;
+    width: 390px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    font-family: 'Rubik';
+}
+.You_can_trust img {
+    margin-left: 757px;
+    margin-top: 382px;
+}
+
+.Text_can_trust {
+    margin-left: 319px;
+    margin-top: -550px;
+}
+
+.Text_can_trust h1 {
+    font-size: 36px;
+    display: flex;
+    font-weight: 300;
+    line-height: 120%;
+    
+    font-family: 'Rubik';
+    width: 338px;
+    height: 86px;
+    white-space: pre-line;
+}
+
+.Text_can_trust p {
+    width: 390px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    font-family: 'Rubik';
+}
+.Download_iShield {
+    background-color: #0450EB;
+    margin-top: 440px;
+    display: flex;
+    width: 1440px;
+    height: 378px;
+}
+.Download_text{
+    color: white;
+    margin-top: 97px;
+    margin-left: 338px;
+} 
+.Download_text h1{
+    font-size: 48px;
+    display: flex;
+    font-weight: 300;
+    line-height: 120%;
+   white-space: pre;
+    font-family: 'Rubik';
+    
+   letter-spacing: 0.002em;
+
+}
+
+.button_download {
+    margin-top: 236px;
+    margin-left: -450px;
+}
+footer{
+    width: 1440px;
+    height: 95px;
+}
+.privacy {
+    color: #000000;
+    width: 108px;
+    height: 19px;
+    margin-top: 38px;
+    margin-left: 192px;
+    opacity: 0.8;
+    font-family: 'Rubik';
+    font-size: 16px;
+    line-height: 120%;
+    text-decoration: underline;
+
+}
+.privacy a:active{
+    color: #000000;
+}
+.privacy a:visited {
+        color: #000000;
+}
+.copyright {
+    display: flex;
+    font-family: 'Rubik';
+    opacity: 0.5;
+    letter-spacing: 0.02em;
+    margin-top: -35px;
+    margin-left: 914px ;
+    width: 334px;
+height: 19px;
+    
+}
+
+.Security, .Know_your_thearts, .Text_know_thearts, .Enjoy_a_safe, .Text_enjoy_a_safe, .You_can_trust, .Text_can_trust{
+    transition: all .8s cubic-bezier(.39,.575,.565,1) .2s;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition-delay: 0.2s;
+    opacity: 0;
+    transform: translateY(35px);
+    display: block;
+  position: relative;
+}
+
+.come-in {
+   opacity: 1;
+    transform: translate(0);
+}
+
+.already-visible {
+  opacity: 1;
+    transform: translate(0);
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
